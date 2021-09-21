@@ -1,0 +1,23 @@
+.nav_bar{
+    height: 12vh;
+    width: 100%;
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #1d6ef0 0%, #5c36b4 74%);
+}
+
+.nav_bar li{
+    display: inline-block;
+    font-size: 1.5rem;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: 1%;
+    left: 5%;
+    border: solid 1px linear-gradient(50deg, #0e65f0 0%, #5d34bb 74%);
+    border-radius: 7px;
+    padding: 6px;
+}
+
+.nav_bar li:hover{
+    background-color: darkblue;
+}
